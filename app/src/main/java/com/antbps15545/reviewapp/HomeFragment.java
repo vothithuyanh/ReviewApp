@@ -18,6 +18,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_home, container, false);
         wv = view.findViewById(R.id.wvHome);
+        wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl("https://caodang.fpt.edu.vn/nganh-hoc/lap-trinh-mobile");
         return view;
     }

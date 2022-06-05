@@ -47,7 +47,7 @@ public class StartActivity extends AppCompatActivity {
                         fragment = new StudioFragment();
                         break;
                     case R.id.nav_lms:
-                        Toast.makeText(StartActivity.this, "Lms", Toast.LENGTH_SHORT).show();
+                        fragment = new ListLMSFragment();
                         break;
                     case R.id.nav_about:
                         Toast.makeText(StartActivity.this, "About App", Toast.LENGTH_SHORT).show();
