@@ -2,4 +2,9 @@
     <string name="app_name">ReviewApp</string>
     <string name="open_drawer">Open navigation drawer</string>
     <string name="close_drawer">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Lv_array">ListView &amp; ArrayAdapter </string>
+    <string name="Lv_simple">ListView &amp; SimpleAdapter</string>
+    <string name="Lv_base">ListView &amp; BaseAdapter</string>
 </resources>

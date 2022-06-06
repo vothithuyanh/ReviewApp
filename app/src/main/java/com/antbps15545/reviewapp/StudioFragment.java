@@ -8,7 +8,10 @@ import android.webkit.WebView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
+import com.antbps15545.reviewapp.R;
 
 public class StudioFragment extends Fragment {
     View view;
@@ -17,6 +20,7 @@ public class StudioFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_studio, container, false);
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Android Studio Overview");
         wv = view.findViewById(R.id.wvstudio);
         wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl("https://viblo.asia/p/gioi-thieu-lap-trinh-android-va-cai-dat-moi-truong-yMnKMvBAZ7P");
