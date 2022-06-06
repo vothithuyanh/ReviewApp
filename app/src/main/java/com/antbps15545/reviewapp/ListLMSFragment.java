@@ -20,6 +20,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.antbps15545.reviewapp.R;
 import com.antbps15545.reviewapp.adapter.ListLMSAdapter;
 import com.antbps15545.reviewapp.databinding.FragmentListLmsBinding;
+import com.antbps15545.reviewapp.fragment.ListPageFragment;
+import com.antbps15545.reviewapp.models.Source;
 
 import java.util.ArrayList;
 
@@ -27,7 +29,7 @@ public class ListLMSFragment extends Fragment {
     View view;
     RecyclerView rcv;
     ListLMSAdapter adapter;
-    ArrayList<String> list;
+    ArrayList<Source> list;
     FragmentListLmsBinding binding;
     @Nullable
     @Override
@@ -45,7 +47,7 @@ public class ListLMSFragment extends Fragment {
         ListLMSAdapter.OnItemTouchListener itemTouchListener = new ListLMSAdapter.OnItemTouchListener() {
             @Override
             public void onClick(View view, int position) {
-                loadFragment(list.get(position));
+                loadFragment(position);
             }
         };
         adapter = new ListLMSAdapter(getContext(), list, itemTouchListener);
@@ -69,50 +71,62 @@ public class ListLMSFragment extends Fragment {
     }
 
     private void addList(){
-        list.add("TextView");
-        list.add("EditText");
-        list.add("TextInputEditText");
-        list.add("Button");
-        list.add("ImageView");
-        list.add("CircleImageView");
-        list.add("DatePicker");
-        list.add("CheckBox");
-        list.add("ProgressBar");
-        list.add("Spinner");
-        list.add("RadioButton");
-        list.add("ToogleButton");
-        list.add("AutoCompleteTextView");
-        list.add("Bottom Navigation");
-        list.add("MeowBottomNavigation");
-        list.add("DrawerLayout");
-        list.add("Switch");
-        list.add("CardView");
-        list.add("SearchView");
-        list.add("ListView");
-        list.add("Recyclerview");
-        list.add("ActionBar");
-        list.add("Toolbar");
-        list.add("OptionMenu");
-        list.add("ContextMenu");
-        list.add("PopupMenu");
-        list.add("AlertDialog");
-        list.add("ProgressDialog");
-        list.add("SnackBar");
-        list.add("FloatingButtonAction");
-        list.add("Toast");
-        list.add("RatingBar");
-        list.add("WebView");
-        list.add("TabLayout");
-        list.add("VideoView");
+        list.add(new Source("TextView","",""));
+        list.add(new Source("EditText","",""));
+        list.add(new Source("TextInputEditText","",""));
+        list.add(new Source("Button","",""));
+        list.add(new Source("ImageView","",""));
+        list.add(new Source("CircleImageView","",""));
+        list.add(new Source("DatePicker","",""));
+        list.add(new Source("CheckBox","",""));
+        list.add(new Source("ProgressBar","",""));
+        list.add(new Source("Spinner","",""));
+        list.add(new Source("RadioButton","",""));
+        list.add(new Source("ToogleButton","",""));
+        list.add(new Source("AutoCompleteTextView","",""));
+        list.add(new Source("Bottom Navigation","",""));
+        list.add(new Source("MeowBottomNavigation","",""));
+        list.add(new Source("DrawerLayout","",""));
+        list.add(new Source("Switch","",""));
+        list.add(new Source("CardView","",""));
+        list.add(new Source("SearchView","",""));
+        list.add(new Source("ListView","https://openplanning.net/10435/android-listview#a1302391","https://developer.android.com/reference/android/widget/ListView"));
+        list.add(new Source("Recyclerview","",""));
+        list.add(new Source("ActionBar","",""));
+        list.add(new Source("Toolbar","",""));
+        list.add(new Source("OptionMenu","",""));
+        list.add(new Source("ContextMenu","",""));
+        list.add(new Source("PopupMenu","",""));
+        list.add(new Source("AlertDialog","",""));
+        list.add(new Source("ProgressDialog","",""));
+        list.add(new Source("SnackBar","",""));
+        list.add(new Source("FloatingButtonAction","",""));
+        list.add(new Source("Toast","",""));
+        list.add(new Source("RatingBar","",""));
+        list.add(new Source("WebView","",""));
+        list.add(new Source("TabLayout","",""));
+        list.add(new Source("VideoView","",""));
     }
 
-    public void loadFragment(String name){
-        try {
-            Fragment fragment = (Fragment)(Class.forName("com.antbps15545.reviewapp.fragment."+name+"Fragment").newInstance());
-            FragmentTransaction transaction = getFragmentManager().beginTransaction();
-            transaction.replace(R.id.main_content, fragment).commit();
-        }catch (Exception e){
-            Log.e("click_rcv","fragment not found");
-        }
+    public void loadFragment(int position){
+//        try {
+//            Bundle bundle = new Bundle();
+//            bundle.putSerializable("Source", list.get(position));
+//            Log.d("_title",list.get(position).getTitle());
+//            Fragment fragment = (Fragment)(Class.forName("com.antbps15545.reviewapp.fragment."+list.get(position).getTitle()+"Fragment").newInstance());
+//            fragment.setArguments(bundle);
+//            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+//            transaction.replace(R.id.main_content, fragment).commit();
+//        }catch (Exception e){
+//            Log.e("click_rcv","fragment not found");
+//        }
+
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("source", list.get(position));
+        Fragment fragment = new ListPageFragment();
+        fragment.setArguments(bundle);
+        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        transaction.addToBackStack(null);
+        transaction.replace(R.id.main_content, fragment).commit();
     }
 }

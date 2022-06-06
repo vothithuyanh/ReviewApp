@@ -16,6 +16,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.antbps15545.reviewapp.R;
+import com.antbps15545.reviewapp.models.Source;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -27,13 +28,13 @@ public class ListLMSAdapter extends RecyclerView.Adapter<ListLMSAdapter.ViewHold
     public interface OnItemTouchListener {
         void onClick(View view, int position);
     }
-    ArrayList<String> list;
-    private ArrayList<String> listFiltered;
-    public ListLMSAdapter(Context context, ArrayList<String> list, OnItemTouchListener listener) {
+    ArrayList<Source> list;
+    private ArrayList<Source> listFiltered;
+    public ListLMSAdapter(Context context, ArrayList<Source> list, OnItemTouchListener listener) {
         this.context = context;
         this.list = list;
         this.onItemTouchListener = listener;
-        listFiltered = new ArrayList<>(list);
+        listFiltered = new ArrayList<Source>(list);
     }
     @NonNull
     @Override
@@ -47,8 +48,8 @@ public class ListLMSAdapter extends RecyclerView.Adapter<ListLMSAdapter.ViewHold
     @Override
     public void onBindViewHolder(@NonNull ListLMSAdapter.ViewHolder holder, int position) {
         holder.setIsRecyclable(false);
-        String s = list.get(position);
-        holder.tv.setText(s);
+        Source s = list.get(position);
+        holder.tv.setText(s.getTitle());
         holder.cv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -86,13 +87,13 @@ public class ListLMSAdapter extends RecyclerView.Adapter<ListLMSAdapter.ViewHold
             @Override
             protected FilterResults performFiltering(CharSequence charSequence) {
                 String input = charSequence.toString();
-                ArrayList<String> filteredList = new ArrayList<>();
+                ArrayList<Source> filteredList = new ArrayList<>();
                 if (input.isEmpty()) {
                     filteredList.addAll(listFiltered);
                 } else {
 
-                    for (String row : listFiltered) {
-                        if (row.toLowerCase().contains(input.toLowerCase())) {
+                    for (Source row : listFiltered) {
+                        if (row.getTitle().toLowerCase().contains(input.toLowerCase())) {
                             filteredList.add(row);
                         }
                     }
@@ -105,7 +106,7 @@ public class ListLMSAdapter extends RecyclerView.Adapter<ListLMSAdapter.ViewHold
             @Override
             protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
                 list.clear();
-                list.addAll((Collection<? extends String>) filterResults.values);
+                list.addAll((Collection<? extends Source>) filterResults.values);
                 notifyDataSetChanged();
             }
         };

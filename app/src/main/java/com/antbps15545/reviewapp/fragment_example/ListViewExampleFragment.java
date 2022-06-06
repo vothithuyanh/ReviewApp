@@ -11,19 +11,15 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-import com.antbps15545.reviewapp.MainActivity;
 import com.antbps15545.reviewapp.R;
 import com.antbps15545.reviewapp.adapter.ListViewBaseAdapter;
 import com.antbps15545.reviewapp.databinding.FragmentListViewExampleBinding;
-import com.antbps15545.reviewapp.fragment.ListViewFragment;
 import com.antbps15545.reviewapp.models.Country;
 import com.antbps15545.reviewapp.models.UserAccount;
 
@@ -31,7 +27,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class ListviewExampleFragment extends Fragment {
+public class ListViewExampleFragment extends Fragment {
 
     FragmentListViewExampleBinding binding;
     View view;
@@ -100,7 +96,7 @@ public class ListviewExampleFragment extends Fragment {
 
 //    @Override
 //    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-//        loadFragment(new ListViewFragment());
+//        loadFragment(new ListPageFragment());
 //        return super.onOptionsItemSelected(item);
 //    }
 
@@ -110,4 +106,7 @@ public class ListviewExampleFragment extends Fragment {
         transacion.addToBackStack(null);
         transacion.commit();
     }
+
+
+
 }

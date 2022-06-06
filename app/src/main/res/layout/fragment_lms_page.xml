@@ -5,10 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools">
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:orientation="vertical"
-        tools:context=".fragment.ListViewFragment"
+        tools:context=".fragment.ListPageFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/layoutLv">
+        android:id="@+id/layout">
         <WebView
             android:id="@+id/webView"
             android:layout_marginBottom="56dp"
