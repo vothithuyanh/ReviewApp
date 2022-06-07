@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/layout/bottom_nav.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/layout/drawer_menu.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/layout/fragment_context_menu.xml" value="0.22447916666666667" />
+        <entry key="app/src/main/res/layout/fragment_context_menu_example.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.10925925925925926" />
         <entry key="app/src/main/res/layout/fragment_list_lms.xml" value="0.18425925925925926" />
         <entry key="app/src/main/res/layout/fragment_list_view.xml" value="0.22447916666666667" />
@@ -22,6 +23,7 @@
         <entry key="app/src/main/res/layout/item_lv_ex_simple.xml" value="0.2234375" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.337890625" />
+        <entry key="app/src/main/res/menu/context_menu.xml" value="0.2234375" />
       </map>
     </option>
   </component>
