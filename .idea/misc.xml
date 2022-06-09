@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/tabs_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_list_view_ex.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/layout/activity_start.xml" value="0.1702127659574468" />
@@ -17,8 +19,12 @@
         <entry key="app/src/main/res/layout/fragment_list_view_example.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/layout/fragment_list_view_source.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_lisview_example.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/fragment_new1.xml" value="0.22447916666666667" />
+        <entry key="app/src/main/res/layout/fragment_new2.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/fragment_new3.xml" value="0.21041666666666667" />
         <entry key="app/src/main/res/layout/fragment_review.xml" value="0.15260416666666668" />
         <entry key="app/src/main/res/layout/fragment_studio.xml" value="0.22447916666666667" />
+        <entry key="app/src/main/res/layout/fragment_tab_layout_example.xml" value="0.2234375" />
         <entry key="app/src/main/res/layout/item_lms.xml" value="0.2234375" />
         <entry key="app/src/main/res/layout/item_lv_ex_simple.xml" value="0.2234375" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.22447916666666667" />

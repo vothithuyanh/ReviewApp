@@ -84,7 +84,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("RadioButton","",""));
         list.add(new Source("ToogleButton","",""));
         list.add(new Source("AutoCompleteTextView","",""));
-        list.add(new Source("Bottom Navigation","",""));
+        list.add(new Source("BottomNavigation","",""));
         list.add(new Source("MeowBottomNavigation","",""));
         list.add(new Source("DrawerLayout","",""));
         list.add(new Source("Switch","",""));
@@ -104,7 +104,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("Toast","",""));
         list.add(new Source("RatingBar","",""));
         list.add(new Source("WebView","",""));
-        list.add(new Source("TabLayout","",""));
+        list.add(new Source("TabLayout","https://code.tutsplus.com/vi/tutorials/create-a-material-design-tabbed-interface-in-an-android-app--cms-30120","https://developer.android.com/reference/com/google/android/material/tabs/TabLayout"));
         list.add(new Source("VideoView","",""));
     }
 
