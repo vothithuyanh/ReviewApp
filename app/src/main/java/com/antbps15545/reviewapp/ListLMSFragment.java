@@ -77,7 +77,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("Button","",""));
         list.add(new Source("ImageView","",""));
         list.add(new Source("CircleImageView","",""));
-        list.add(new Source("DatePicker","",""));
+        list.add(new Source("DatePicker","https://openplanning.net/12619/android-datepicker","https://developer.android.com/reference/android/widget/DatePicker"));
         list.add(new Source("CheckBox","",""));
         list.add(new Source("ProgressBar","",""));
         list.add(new Source("Spinner","",""));
@@ -86,15 +86,15 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("AutoCompleteTextView","",""));
         list.add(new Source("Bottom Navigation","",""));
         list.add(new Source("MeowBottomNavigation","",""));
-        list.add(new Source("DrawerLayout","",""));
+        list.add(new Source("DrawerLayout","https://viblo.asia/p/cach-tao-navigation-drawer-ByEZk0NElQ0","https://developer.android.com/guide/navigation/navigation-ui#add_a_navigation_drawer"));
         list.add(new Source("Switch","",""));
         list.add(new Source("CardView","",""));
-        list.add(new Source("SearchView","",""));
+        list.add(new Source("SearchView","https://hiepsiit.com/detail/android/laptrinhandroid/searchview","https://developer.android.com/reference/android/widget/SearchView"));
         list.add(new Source("ListView","https://openplanning.net/10435/android-listview#a1302391","https://developer.android.com/reference/android/widget/ListView"));
         list.add(new Source("Recyclerview","",""));
         list.add(new Source("ActionBar","",""));
         list.add(new Source("Toolbar","",""));
-        list.add(new Source("OptionMenu","",""));
+        list.add(new Source("OptionMenu","https://openplanning.net/12605/android-optionmenu","https://developer.android.com/guide/topics/ui/menus"));
         list.add(new Source("ContextMenu","https://openplanning.net/12615/android-contextmenu","https://developer.android.com/guide/topics/ui/menus"));
         list.add(new Source("PopupMenu","",""));
         list.add(new Source("AlertDialog","",""));
@@ -105,7 +105,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("RatingBar","",""));
         list.add(new Source("WebView","",""));
         list.add(new Source("TabLayout","",""));
-        list.add(new Source("VideoView","",""));
+        list.add(new Source("VideoView","https://openplanning.net/10487/android-videoview","https://developer.android.com/reference/android/widget/VideoView"));
     }
 
     public void loadFragment(int position){
