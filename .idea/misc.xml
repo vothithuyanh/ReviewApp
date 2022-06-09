@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/activity_start.xml" value="0.184375" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_context_menu_example.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_drawer_layout_example.xml" value="0.184375" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_list_lms.xml" value="0.184375" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_list_view_example.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/nav_header.xml" value="0.18333333333333332" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/toolbar.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/drawer_menu.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/drawer_menu_example.xml" value="0.18333333333333332" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/drawer_view.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/nav_header.xml" value="0.184375" />
         <entry key="app/src/main/res/layout/activity_start.xml" value="0.1702127659574468" />
         <entry key="app/src/main/res/layout/drawer_menu.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.10925925925925926" />
