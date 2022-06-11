@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Menu 1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu2"
+        android:icon="@android:drawable/ic_lock_lock"
+        android:title="Menu 2"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu3"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:title="Menu 3"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/menu4"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:title="Menu 4"
+        app:showAsAction="collapseActionView">
+        <menu>
+            <item android:id="@+id/menu41"
+                android:title="Menu a"/>
+            <item android:id="@+id/menu42"
+                android:title="Menu b"/>
+            <item android:id="@+id/menu43"
+                android:title="Menu c"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu5"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:title="Menu 5"
+        app:showAsAction="collapseActionView" />
+</menu>

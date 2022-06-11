@@ -92,8 +92,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("SearchView","",""));
         list.add(new Source("ListView","https://openplanning.net/10435/android-listview#a1302391","https://developer.android.com/reference/android/widget/ListView"));
         list.add(new Source("Recyclerview","",""));
-        list.add(new Source("ActionBar","",""));
-        list.add(new Source("Toolbar","",""));
+        list.add(new Source("ActionBar","https://xuanthulab.net/toolbar-actionbar-trong-lap-trinh-android.html","https://developer.android.com/reference/android/app/ActionBar"));
         list.add(new Source("OptionMenu","",""));
         list.add(new Source("ContextMenu","https://openplanning.net/12615/android-contextmenu","https://developer.android.com/guide/topics/ui/menus"));
         list.add(new Source("PopupMenu","",""));
