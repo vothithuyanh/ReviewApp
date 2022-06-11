@@ -24,6 +24,7 @@ import com.antbps15545.reviewapp.databinding.FragmentActionBarExampleBinding;
 
 public class ActionBarExampleFragment extends Fragment {
     FragmentActionBarExampleBinding binding;
+    ActionBar actionBar;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -37,7 +38,7 @@ public class ActionBarExampleFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         ((AppCompatActivity)getActivity()).setSupportActionBar(binding.toolbar);
-        ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
+        actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
         actionBar.setTitle("Action Bar");
 //        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Action Bar");
         // Tạo logo
@@ -70,9 +71,13 @@ public class ActionBarExampleFragment extends Fragment {
         switch (item.getItemId()){
             case R.id.menu1:
                 Toast.makeText(getContext(), "Menu 1 Action Bar", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Turn on back icon", Toast.LENGTH_SHORT).show();
+                actionBar.setDisplayHomeAsUpEnabled(true);
                 break;
             case R.id.menu2:
                 Toast.makeText(getContext(), "Menu 2 Action Bar", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Turn off back icon", Toast.LENGTH_SHORT).show();
+                actionBar.setDisplayHomeAsUpEnabled(false);
                 break;
             case R.id.menu3:
                 Toast.makeText(getContext(), "Menu 3 Action Bar", Toast.LENGTH_SHORT).show();

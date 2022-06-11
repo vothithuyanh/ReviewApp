@@ -85,7 +85,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("ToogleButton","",""));
         list.add(new Source("AutoCompleteTextView","",""));
         list.add(new Source("Bottom Navigation","",""));
-        list.add(new Source("MeowBottomNavigation","",""));
+        list.add(new Source("MeowBottomNavigation","https://github.com/oneHamidreza/MeowBottomNavigation","https://developer.android.com/reference/com/google/android/material/bottomnavigation/BottomNavigationView"));
         list.add(new Source("DrawerLayout","https://viblo.asia/p/cach-tao-navigation-drawer-ByEZk0NElQ0","https://developer.android.com/guide/navigation/navigation-ui?gclid=CjwKCAjwtIaVBhBkEiwAsr7-c7CTir6Ya5BwyRcv_NcBxihbxE8rBEMTxviE0LE058cwKxssDH6WuxoCN14QAvD_BwE&gclsrc=aw.ds"));
         list.add(new Source("Switch","",""));
         list.add(new Source("CardView","",""));
