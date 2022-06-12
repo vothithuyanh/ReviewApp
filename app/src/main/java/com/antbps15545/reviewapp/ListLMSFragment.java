@@ -71,13 +71,13 @@ public class ListLMSFragment extends Fragment {
     }
 
     private void addList(){
-        list.add(new Source("TextView","",""));
+        list.add(new Source("TextView","https://vietjack.com/android/textview_trong_android.jsp","https://developer.android.com/reference/android/widget/TextView"));
         list.add(new Source("EditText","",""));
-        list.add(new Source("TextInputEditText","",""));
+        list.add(new Source("TextInputEditText","https://openplanning.net/12691/android-textinputlayout","https://developer.android.com/reference/com/google/android/material/textfield/TextInputLayout"));
         list.add(new Source("Button","",""));
         list.add(new Source("ImageView","",""));
         list.add(new Source("CircleImageView","",""));
-        list.add(new Source("DatePicker","",""));
+        list.add(new Source("DatePicker","https://openplanning.net/12619/android-datepicker","https://developer.android.com/reference/android/widget/DatePicker"));
         list.add(new Source("CheckBox","",""));
         list.add(new Source("ProgressBar","https://openplanning.net/12745/android-progressbar","https://developer.android.com/reference/android/widget/ProgressBar"));
         list.add(new Source("Spinner","",""));
@@ -89,22 +89,22 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("DrawerLayout","https://viblo.asia/p/cach-tao-navigation-drawer-ByEZk0NElQ0","https://developer.android.com/guide/navigation/navigation-ui?gclid=CjwKCAjwtIaVBhBkEiwAsr7-c7CTir6Ya5BwyRcv_NcBxihbxE8rBEMTxviE0LE058cwKxssDH6WuxoCN14QAvD_BwE&gclsrc=aw.ds"));
         list.add(new Source("Switch","",""));
         list.add(new Source("CardView","",""));
-        list.add(new Source("SearchView","",""));
+        list.add(new Source("SearchView","https://hiepsiit.com/detail/android/laptrinhandroid/searchview","https://developer.android.com/reference/android/widget/SearchView"));
         list.add(new Source("ListView","https://openplanning.net/10435/android-listview#a1302391","https://developer.android.com/reference/android/widget/ListView"));
-        list.add(new Source("Recyclerview","",""));
+        list.add(new Source("Recyclerview","https://vncoder.vn/bai-hoc/recyclerview-trong-android-96","https://developer.android.com/guide/topics/ui/layout/recyclerview"));
         list.add(new Source("ActionBar","https://xuanthulab.net/toolbar-actionbar-trong-lap-trinh-android.html","https://developer.android.com/reference/android/app/ActionBar"));
-        list.add(new Source("OptionMenu","",""));
+        list.add(new Source("OptionMenu","https://openplanning.net/12605/android-optionmenu","https://developer.android.com/guide/topics/ui/menus#options-menu"));
         list.add(new Source("ContextMenu","https://openplanning.net/12615/android-contextmenu","https://developer.android.com/guide/topics/ui/menus"));
-        list.add(new Source("PopupMenu","",""));
+        list.add(new Source("PopupMenu","https://openplanning.net/12631/android-popupmenu","https://developer.android.com/reference/android/widget/PopupMenu"));
         list.add(new Source("AlertDialog","",""));
         list.add(new Source("ProgressDialog","",""));
         list.add(new Source("SnackBar","",""));
         list.add(new Source("FloatingButtonAction","",""));
         list.add(new Source("Toast","",""));
-        list.add(new Source("RatingBar","",""));
+        list.add(new Source("RatingBar","https://openplanning.net/12623/android-ratingbar5","https://developer.android.com/reference/android/widget/RatingBar"));
         list.add(new Source("WebView","https://viblo.asia/p/tim-hieu-ve-webview-trong-android-Ljy5VPqzZra","https://developer.android.com/reference/android/webkit/WebView"));
         list.add(new Source("TabLayout","https://viblo.asia/p/tao-material-design-tab-trong-ung-dung-android-XL6lAP6NZek","https://developer.android.com/reference/com/google/android/material/tabs/TabLayout"));
-        list.add(new Source("VideoView","",""));
+        list.add(new Source("VideoView","https://openplanning.net/10487/android-videoview","https://developer.android.com/reference/android/widget/VideoView"));
     }
 
     public void loadFragment(int position){
