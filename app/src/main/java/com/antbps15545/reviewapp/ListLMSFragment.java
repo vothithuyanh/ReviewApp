@@ -81,7 +81,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("CheckBox","",""));
         list.add(new Source("ProgressBar","",""));
         list.add(new Source("Spinner","",""));
-        list.add(new Source("RadioButton","",""));
+        list.add(new Source("RadioButton","https://xuanthulab.net/radiobutton-va-radiogroup-trong-lap-trinh-android.html","https://developer.android.com/guide/topics/ui/controls/radiobutton"));
         list.add(new Source("ToogleButton","",""));
         list.add(new Source("AutoCompleteTextView","",""));
         list.add(new Source("Bottom Navigation","",""));
