@@ -79,11 +79,11 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("CircleImageView","",""));
         list.add(new Source("DatePicker","",""));
         list.add(new Source("CheckBox","",""));
-        list.add(new Source("ProgressBar","",""));
+        list.add(new Source("ProgressBar","https://openplanning.net/12745/android-progressbar","https://developer.android.com/reference/android/widget/ProgressBar"));
         list.add(new Source("Spinner","",""));
-        list.add(new Source("RadioButton","https://xuanthulab.net/radiobutton-va-radiogroup-trong-lap-trinh-android.html","https://developer.android.com/guide/topics/ui/controls/radiobutton"));
-        list.add(new Source("ToogleButton","",""));
-        list.add(new Source("AutoCompleteTextView","",""));
+        list.add(new Source("RadioButton","",""));
+        list.add(new Source("ToggleButton","https://xuanthulab.net/togglebutton-trong-lap-trinh-android.html","https://developer.android.com/guide/topics/ui/controls/togglebutton#:~:text=A%20toggle%20button%20allows%20the,add%20with%20a%20Switch%20object."));
+        list.add(new Source("AutoCompleteTextView","https://xuanthulab.net/radiobutton-va-radiogroup-trong-lap-trinh-android.html","https://developer.android.com/guide/topics/ui/controls/radiobutton"));
         list.add(new Source("Bottom Navigation","",""));
         list.add(new Source("MeowBottomNavigation","https://github.com/oneHamidreza/MeowBottomNavigation","https://developer.android.com/reference/com/google/android/material/bottomnavigation/BottomNavigationView"));
         list.add(new Source("DrawerLayout","https://viblo.asia/p/cach-tao-navigation-drawer-ByEZk0NElQ0","https://developer.android.com/guide/navigation/navigation-ui?gclid=CjwKCAjwtIaVBhBkEiwAsr7-c7CTir6Ya5BwyRcv_NcBxihbxE8rBEMTxviE0LE058cwKxssDH6WuxoCN14QAvD_BwE&gclsrc=aw.ds"));
@@ -102,7 +102,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("FloatingButtonAction","",""));
         list.add(new Source("Toast","",""));
         list.add(new Source("RatingBar","",""));
-        list.add(new Source("WebView","",""));
+        list.add(new Source("WebView","https://viblo.asia/p/tim-hieu-ve-webview-trong-android-Ljy5VPqzZra","https://developer.android.com/reference/android/webkit/WebView"));
         list.add(new Source("TabLayout","https://viblo.asia/p/tao-material-design-tab-trong-ung-dung-android-XL6lAP6NZek","https://developer.android.com/reference/com/google/android/material/tabs/TabLayout"));
         list.add(new Source("VideoView","",""));
     }
