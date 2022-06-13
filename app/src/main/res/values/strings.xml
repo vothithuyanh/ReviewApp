@@ -7,7 +7,7 @@
     <string name="Lv_array">ListView &amp; ArrayAdapter </string>
     <string name="Lv_simple">ListView &amp; SimpleAdapter</string>
     <string name="Lv_base">ListView &amp; BaseAdapter</string>
-<!--    review page textview-->
+    <!--    review page textview-->
     <string name="txt1"><b>Android Review App</b> là ứng dụng tổng hợp kiến thức lập trình android cơ bản.</string>
     <string name="txt2">Được <b>Team Four</b> thực hiện trong dự án môn học <b>Kỹ năng làm việc</b> do <b>MR. Nguyễn Mạnh Hiếu</b> hướng dẫn.</string>
     <string name="txt3"><b>Team Leader:</b> \nVõ Thị Thuý Anh\n<b>Thành viên nhóm:</b>\nBảo Ân\nHoàng Nam\nNhật Tân\nThanh Tân\nNgọc Thiện\nVinh Vỹ</string>
