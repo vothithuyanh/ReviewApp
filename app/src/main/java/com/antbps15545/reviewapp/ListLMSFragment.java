@@ -78,9 +78,9 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("ImageView","https://xuanthulab.net/imageview-va-imagebutton-trong-android.html","https://developer.android.com/reference/android/widget/ImageView"));
         list.add(new Source("CircleImageView","",""));
         list.add(new Source("DatePicker","https://openplanning.net/12619/android-datepicker","https://developer.android.com/reference/android/widget/DatePicker"));
-        list.add(new Source("CheckBox","",""));
+        list.add(new Source("CheckBox","https://openplanning.net/12663/android-checkbox","https://developer.android.com/guide/topics/ui/controls/checkbox"));
         list.add(new Source("ProgressBar","https://openplanning.net/12745/android-progressbar","https://developer.android.com/reference/android/widget/ProgressBar"));
-        list.add(new Source("Spinner","",""));
+        list.add(new Source("Spinner","https://openplanning.net/12617/android-spinner","https://developer.android.com/guide/topics/ui/controls/spinner"));
         list.add(new Source("RadioButton","",""));
         list.add(new Source("ToggleButton","https://xuanthulab.net/togglebutton-trong-lap-trinh-android.html","https://developer.android.com/guide/topics/ui/controls/togglebutton#:~:text=A%20toggle%20button%20allows%20the,add%20with%20a%20Switch%20object."));
         list.add(new Source("AutoCompleteTextView","https://xuanthulab.net/radiobutton-va-radiogroup-trong-lap-trinh-android.html","https://developer.android.com/guide/topics/ui/controls/radiobutton"));
@@ -100,7 +100,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("ProgressDialog","",""));
         list.add(new Source("SnackBar","",""));
         list.add(new Source("FloatingButtonAction","https://openplanning.net/12705/android-floatingactionbutton","https://developer.android.com/guide/topics/ui/floating-action-button"));
-        list.add(new Source("Toast","",""));
+        list.add(new Source("Toast","https://openplanning.net/12633/android-toast","https://developer.android.com/reference/android/widget/Toast"));
         list.add(new Source("RatingBar","https://openplanning.net/12623/android-ratingbar5","https://developer.android.com/reference/android/widget/RatingBar"));
         list.add(new Source("WebView","https://viblo.asia/p/tim-hieu-ve-webview-trong-android-Ljy5VPqzZra","https://developer.android.com/reference/android/webkit/WebView"));
         list.add(new Source("TabLayout","https://viblo.asia/p/tao-material-design-tab-trong-ung-dung-android-XL6lAP6NZek","https://developer.android.com/reference/com/google/android/material/tabs/TabLayout"));
