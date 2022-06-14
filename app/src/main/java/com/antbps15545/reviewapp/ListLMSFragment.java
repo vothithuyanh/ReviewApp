@@ -76,7 +76,7 @@ public class ListLMSFragment extends Fragment {
         list.add(new Source("TextInputEditText","https://openplanning.net/12691/android-textinputlayout","https://developer.android.com/reference/com/google/android/material/textfield/TextInputLayout"));
         list.add(new Source("Button","https://xuanthulab.net/button-trong-android.html","https://developer.android.com/reference/android/widget/Button"));
         list.add(new Source("ImageView","https://xuanthulab.net/imageview-va-imagebutton-trong-android.html","https://developer.android.com/reference/android/widget/ImageView"));
-        list.add(new Source("CircleImageView","",""));
+        list.add(new Source("CircleImageView","https://viblo.asia/p/tao-mot-circle-imageview-android-voi-thu-vien-hdodenhof-bWrZnLRY5xw","https://github.com/hdodenhof/CircleImageView"));
         list.add(new Source("DatePicker","https://openplanning.net/12619/android-datepicker","https://developer.android.com/reference/android/widget/DatePicker"));
         list.add(new Source("CheckBox","",""));
         list.add(new Source("ProgressBar","https://openplanning.net/12745/android-progressbar","https://developer.android.com/reference/android/widget/ProgressBar"));
