@@ -5,6 +5,12 @@
       <map>
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/activity_main.xml" value="0.184375" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/activity_start.xml" value="0.184375" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_alert_dialog_example.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_calendar.xml" value="0.1" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_circle_image_view_example.xml" value="0.184375" />
+>>>>>>> 79c0cef2b40409b5c9e93e3f3ed2f77e78e27e12
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_context_menu_example.xml" value="0.184375" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_drawer_layout_example.xml" value="0.184375" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/layout/fragment_list_lms.xml" value="0.184375" />
@@ -15,10 +21,15 @@
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/drawer_menu_example.xml" value="0.18333333333333332" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/drawer_view.xml" value="0.184375" />
         <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/nav_header.xml" value="0.184375" />
+<<<<<<< HEAD
         <entry key="..\:/Users/Dell/Documents/GitHub/ReviewApp/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/Dell/Documents/GitHub/ReviewApp/app/src/main/res/layout/fragment_check_box_example.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/Dell/Documents/GitHub/ReviewApp/app/src/main/res/layout/fragment_spinner_example.xml" value="0.25052083333333336" />
         <entry key="app/src/main/res/drawable/ic_baseline_build_24.xml" value="0.1" />
+=======
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/option_menu.xml" value="0.184375" />
+        <entry key="..\:/GitHub/ReviewApp/app/src/main/res/menu/search_menu.xml" value="0.184375" />
+>>>>>>> 79c0cef2b40409b5c9e93e3f3ed2f77e78e27e12
         <entry key="app/src/main/res/layout/activity_start.xml" value="0.1702127659574468" />
         <entry key="app/src/main/res/layout/drawer_menu.xml" value="0.22447916666666667" />
         <entry key="app/src/main/res/layout/fragment_action_bar_example.xml" value="0.2234375" />
